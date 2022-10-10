@@ -1,0 +1,75 @@
+.footer {
+    height: 100px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__col {
+    display: flex;
+    align-items: center;
+}
+
+.footer__col-align-right {
+    align-items: flex-end;
+}
+
+.logo__footer {
+    margin-right: 100px;
+}
+
+.nav__footer {
+    position: relative;
+    height: 34px;
+}
+
+.contacts__desc {
+    font-size: 11px;
+    color: #9A9A9A;
+    font-style: normal;
+    margin: 0;
+}
+
+.media__list {
+    margin-right: 78px;
+}
+
+.media__link {
+    display: block;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;
+    background: center center no-repeat;
+}
+
+.media__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 7px;
+}
+
+.media__item:last-child {
+    margin-right: 0;
+}
+
+.media__item-icon-tg .media__link {
+    background-image: url(../img/telegram.png);
+}
+
+.media__item-icon-vk .media__link {
+    background-image: url(../img/vk.png);
+}
+
+.media__item-icon-f .media__link {
+    background-image: url(../img/f.png);
+}
+
+.media__item-icon-inst .media__link {
+    background-image: url(../img/in.png);
+}
