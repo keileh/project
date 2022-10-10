@@ -3,7 +3,7 @@
 @import url(/css/hero.css);
 @import url(btn.css);
 @import url(css/footer.css);
-@import url(css/normalize.css);
+@import url(project/quiz-box/css/normalize.css);
 
 body {
     font-family: 'Open Sans', sans-serif;
