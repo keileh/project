@@ -224,10 +224,14 @@ h1, h2, h3, h4, h5, h6 {
 .partners__item {
     text-decoration: none;
     display: flex;
-    width: 270px;
+    width: 280px;
     height: 100px;
     align-items: center;
     justify-content: center;
     margin-bottom: 23px;
+    -webkit-filter: grayscale(100%);
 }
 
+.partners__item:hover {
+    -webkit-filter: grayscale(0%);
+}
